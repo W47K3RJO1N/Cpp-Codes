@@ -3,16 +3,12 @@ using namespace std;
 
 int main() {
 
-    int n , last_digit ;
-    int cnt = 0;
+    int n;
+    cout << "enter a number: " << " ";
     cin >> n;
-
-    while ( n > 0) {
-
-        last_digit = n % 10;
-        cout << last_digit << endl;
-
-        n = n / 10;
-    }
-    return 0;
+    int cnt = (int)(log10(n) + 1);
+    cout << "Number of digits: " << cnt;
+    return cnt;
 }
+
+// TIME COMPLEXITY = O (LOG10 (n))
