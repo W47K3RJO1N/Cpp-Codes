@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+void reverseVector(vector<int>& v, int l, int r) {
+    if (l >= r) return;
+    swap(v[l], v[r]);
+    reverseVector(v, l + 1, r - 1);
+}
+
+int main() {
+    vector<int> v = {1, 2, 3, 4};
+    reverseVector(v, 0, v.size() - 1);
+
+    for (int x : v) cout << x << " ";
+}
