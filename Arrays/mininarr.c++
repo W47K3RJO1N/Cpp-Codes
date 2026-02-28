@@ -9,4 +9,5 @@ int main () {
         mx = min(mx , arr[i]);
     }
     cout << mx;
+return 0;
 }
