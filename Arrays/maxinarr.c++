@@ -12,4 +12,5 @@ int main()
         mx = max(mx , arr[i]);
     }
     cout << mx;
+return 0;
 }
