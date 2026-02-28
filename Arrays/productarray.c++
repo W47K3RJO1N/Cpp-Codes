@@ -9,4 +9,5 @@ int main() {
     }
     cout << product;
 
+return 0;
 }
