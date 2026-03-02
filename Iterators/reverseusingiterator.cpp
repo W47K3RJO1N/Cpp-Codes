@@ -7,6 +7,4 @@ int main() {
     for(vector<int>::reverse_iterator it = v.rbegin(); it != v.rend(); it++) {
         cout << *(it) << " ";
     }
-
-    return 0;
 }
