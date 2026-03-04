@@ -2,7 +2,7 @@
 using namespace std;
 
 void change(int x) {
-    x = 8;
+    x = 16;
 }
 int main() {
     int x = 5;
@@ -10,4 +10,5 @@ int main() {
 
     change(x);
     cout << x << endl;
+
 }
