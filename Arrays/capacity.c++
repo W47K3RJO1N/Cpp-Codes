@@ -15,6 +15,6 @@ void capacity () {
 }
 
 int main() {
-    capacity();
+   capacity();
     return 0;
 }
