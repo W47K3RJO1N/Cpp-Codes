@@ -13,5 +13,6 @@ void vecinsert() {
 
 int main() {
     vecinsert() ;
+
     return 0;
 }
