@@ -2,10 +2,11 @@
 using namespace std;
 
 int main() {
-    int a , b;
+    int a , b, c;
 
     cin >> a;
     cin >> b;
-
+    cin >> c;
+   
     cout << "The addition of a and b is: " << a + b;
 }
