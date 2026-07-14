@@ -9,4 +9,5 @@ int main() {
     cin >> c;
    
     cout << "The addition of a and b is: " << a + b;
+    cout << "The addition of a and c is: " << b + c;
 }
