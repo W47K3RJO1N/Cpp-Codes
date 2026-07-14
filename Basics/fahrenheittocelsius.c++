@@ -10,6 +10,5 @@ int main() {
     celsius = (fahrenheit - 32) * 5/9;
 
     cout << "Temperature in Celsius: " << celsius;
-
     return 0;
 }
