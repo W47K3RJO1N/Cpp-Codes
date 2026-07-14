@@ -7,7 +7,6 @@ int main() {
     do {
         cout << i << endl;
         i++;
-    } while (i <= 5);
-
-    return 0;
+    } while (i <= 5)
+        return 0;
 }
